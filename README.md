@@ -40,3 +40,26 @@ The function `XORDecryption(arr)` returns a number, where `arr` is an array of i
 
 Allows the user to show or hide the solution to the problem as described in [Project Euler 059](https://projecteuler.net/problem=59).  Also allows the user to view the [Cipher](pdf/cipher.pdf), a PDF file containing the encrypted ASCII codes.  If time permitted, would like to give the user an option to show the message as well as the sum of the ASCII values in the original text.
 
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Bootstrap 5.2.2 and Google Fonts.
+
+## Testing
+
+Ensure all user stories have been met.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-059) at the main branch.
+
+## Credits
+
+### Content
+
+Array `cipher` in `script.js` taken from [FreeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp).  Function `XORDecryption(arr)` taken from a GitHub Search.  The [Cipher PDF File](pdf/cipher.pdf) is taken from [Project Euler 059 - Text File](https://projecteuler.net/project/resources/p059_cipher.txt).
+
+### Acknowledgements
+
+- [Project Euler](https://projecteuler.net)
+- [FreeCodeCamp](https://www.freecodecamp.org)
+- [GitHub](https://www.github.com)

@@ -19,12 +19,17 @@ function hideSolution() {
 function XORDecryption(arr) {
     let text = arr.slice();
     let maxSize = Math.max(...arr);
-    let howMany = Array(maxSize + 1).fill(0);
+    let howMany = Array(maxSize + 1);
     let key;
 
     for (let j = 0; j < 3; j++) {
         let index = 0;
         let temp = 0;
+
+        for (let i = 0; i < howMany.length; i++) {
+            howMany[i] = 0;
+        }
+
         for (let i = j; i < howMany.length; i += 3) {
             howMany[arr[i]] += 1;
         }

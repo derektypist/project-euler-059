@@ -16,11 +16,15 @@ Information at [Project Euler 059](https://projecteuler.net/problem=59)
 
 **Getting Started**
 
-Select the Show Solution button to show the solution.  Select the Hide Solution button to hide (clear) the solution.
+Select the Show Solution button to show the solution.  Select the Hide Solution button to hide (clear) the solution.  You can also view the cipher, a PDF file containing the encrypted ASCII codes.
+
+- [Cipher](pdf/cipher.pdf)
 
 **User Stories**
 
 As a user, I can show or hide the solution by selecting the appropriate button.
+
+As a user, I can view the cipher, a PDF file containing the encrypted ASCII codes.
 
 As a user, I expect the function `XORDecryption(cipher)` to return a number.
 
@@ -31,4 +35,8 @@ User Stories on function `XORDecryption(arr)` taken from [FreeCodeCamp - Coding 
 **Information Architecture**
 
 The function `XORDecryption(arr)` returns a number, where `arr` is an array of integers.
+
+## Features
+
+Allows the user to show or hide the solution to the problem as described in [Project Euler 059](https://projecteuler.net/problem=59).  Also allows the user to view the [Cipher](pdf/cipher.pdf), a PDF file containing the encrypted ASCII codes.  If time permitted, would like to give the user an option to show the message as well as the sum of the ASCII values in the original text.
 
